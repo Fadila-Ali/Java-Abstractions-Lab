@@ -13,7 +13,7 @@ public class Circle extends Shape {
     public double getArea() {
         //double area = PI * this.radius * this.radius;
         double area = PI * Math.pow(this.radius, 2); // initializing value in parent class variable
-        return area; //reference to  parent class variable
+        return area; //reference to parent class variable
     }
     @Override
     public void displayshapeName() {
