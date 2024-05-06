@@ -26,7 +26,7 @@ public class Main {
         // Use instanceof operator for Validation
         System.out.println(shapeRectangleObj instanceof Rectangle); // true
 
-        System.out.println("--------------------");
+        System.out.println("-------------------");
         Shape shapeTriangleObj = new Triangle("Blue"); //UpCasting
         shapeTriangleObj.displayshapeName();
         shapeTriangleObj.setHeight(10);
